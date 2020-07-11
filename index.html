@@ -4,49 +4,53 @@
         <title>web-index</title>
         <meta charset="utf-8">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160605012-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160605012-2"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-  gtag('config', 'UA-160605012-2');
-</script>
-        <style>
-            a {color:orange;
-            text-decoration: none;}
-            h1 {font-size: 45px;
-            text-align: center;}
-        </style>
+            gtag('config', 'UA-160605012-2');
+            </script>
+            <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1><a href="index.html">WEB</a></h1>
-        <ol>
-        <li><a href="first.html">HTML</a></li>
-        <li><a href="second.html">CSS</a></li>
-        <li><a href="third.html">Javascript</a></li>
-        </ol>
-        <ul>
-        <li>junghwan</li>
-        <li>haewon</li>
-        </ul>
+        <div id="grid">
+            <div id="padding">
+                <ol>
+                    <li><a href="first.html">HTML</a></li>
+                    <li><a href="second.html">CSS</a></li>
+                    <li><a href="third.html">Javascript</a></li>
+                </ol>
+                <ul>
+                    <li>junghwan</li>
+                    <li>haewon</li>
+                </ul>
+            </div>
+            <div>
+                <p>
+                The World Wide Web (WWW), commonly known as the Web, is an information system where documents and<br>
+                other web resources are identified by Uniform Resource Locators (URLs, such as https://www.example.com/),
+                which may be interlinked by hypertext, and are accessible over the Internet.[1][2] The resources of the 
+                WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software
+                application called a web browser and are published by a software application called a web server.
+                </p>
+            </div>
+        </div>
         <h2>this is index</h2>
         <p>
             learning <strong>h<u>t</u>ml</strong> will make me 
-            <a href="https://www.naver.com" target="_blank" title="네이버로 연결됨" style="color:black;">happy</a>
+            <a href="https://www.naver.com" target="_blank" title="네이버로 연결됨">happy</a>
         </p>
         <p>줄바꿈과 단락이 잘 되고 있는지 확인하기 위한 문장</p><p>여기부터는 문단이 잘 되는지 확인</p>
+        <!--유튜브 동영상 삽입-->
         <p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/SlPhMPnQ58k" frameborder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
-        <p>
-            The World Wide Web (WWW), commonly known as the Web, is an information system where documents and<br>
-             other web resources are identified by Uniform Resource Locators (URLs, such as https://www.example.com/),
-              which may be interlinked by hypertext, and are accessible over the Internet.[1][2] The resources of the 
-              WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software
-               application called a web browser and are published by a software application called a web server.
-        </p>
+      
+        <!--여기는 disqus 이용해서 댓글창 만들기 -->
         <p>
             <div id="disqus_thread"></div>
             <script>
@@ -71,18 +75,18 @@
         </p>
         <p>
             <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5f0316e8760b2b560e6fd313/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+                <script type="text/javascript">
+                var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/5f0316e8760b2b560e6fd313/default';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+                })();
+                </script>
+            <!--End of Tawk.to Script-->
         </p>
         <p><img src="flower.jpg" width=30%></p>
         <p>

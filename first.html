@@ -4,36 +4,42 @@
         <title>web-html</title>
         <meta charset="utf-8">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160605012-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160605012-2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-160605012-2');
-</script>
-        <style>
-            a {color:orange;
-            text-decoration: none;}
-        </style>
+        gtag('config', 'UA-160605012-2');
+        </script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1><a href="index.html">WEB</a></h1>
-        <ol>
-        <li><a href="first.html"style="color:orangered; text-decoration:underline;">HTML</a></li>
-        <li><a href="second.html">CSS</a></li>
-        <li><a href="third.html">Javascript</a></li>
-        </ol>
-        <ul>
-        <li>junghwan</li>
-        <li>haewon</li>
-        </ul>
-        <h2>HTML</h2>
-        <p>
-            Hypertext Markup Language (HTML) is the standard markup language for documents designed to be 
-            displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) 
-            and scripting languages such as JavaScript and VBScript.
-        </p>
+        <div id="grid">
+            <div id="padding">
+                <ol>
+                    <li><a href="first.html"style="color:orangered; text-decoration:underline;">HTML</a></li>
+                    <li><a href="second.html">CSS</a></li>
+                    <li><a href="third.html">Javascript</a></li>
+                </ol>
+                <ul>
+                    <li>junghwan</li>
+                    <li>haewon</li>
+                </ul>
+            </div>
+            <div>
+                <h2>HTML</h2>
+                <p>
+                Hypertext Markup Language (HTML) is the standard markup language for documents designed to be 
+                displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) 
+                and scripting languages such as JavaScript and VBScript.
+                </p>
+            </div>
+        </div>
+        
+        
+        
         <p>
             <div id="disqus_thread"></div>
             <script>
